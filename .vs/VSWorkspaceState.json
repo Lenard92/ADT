@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Dt-demo",
+    "\\IoTHubtoTwins"
   ],
-  "SelectedNode": "\\Dt-demo.sln",
+  "SelectedNode": "\\IoTHubtoTwins\\IoTHubtoTwins.cs",
   "PreviewInSolutionExplorer": false
 }
