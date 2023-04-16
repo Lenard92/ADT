@@ -18,4 +18,8 @@
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.EventGrid" Version="3.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\IoTHubtoTwins\IoTHubtoTwins.csproj" />
+  </ItemGroup>
+
 </Project>
