@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dt-demo", "Dt-demo.csproj",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTHubtoTwins", "..\IoTHubtoTwins\IoTHubtoTwins.csproj", "{6155C389-B1C7-4798-B012-AAB4AECDE8F4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "..\TestProject\TestProject.csproj", "{D4E8D922-7CA7-4455-914A-291D8034FDE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6155C389-B1C7-4798-B012-AAB4AECDE8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6155C389-B1C7-4798-B012-AAB4AECDE8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6155C389-B1C7-4798-B012-AAB4AECDE8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E8D922-7CA7-4455-914A-291D8034FDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E8D922-7CA7-4455-914A-291D8034FDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E8D922-7CA7-4455-914A-291D8034FDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E8D922-7CA7-4455-914A-291D8034FDE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
