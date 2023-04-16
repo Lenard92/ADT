@@ -1,0 +1,13 @@
+{
+  #TODO change to FF
+  "@context": "dtmi:dtdl:context;2",
+  "$dtId": "thermostat67",
+  "$etag": "W/\"0000000-9735-4f41-98d5-90d68e673e15\"",
+  "$metadata": {
+    "$model": "dtmi:contosocom:DigitalTwins:Thermostat;1",
+    "Temperature": {
+      "lastUpdateTime": "2021-09-09T20:32:46.6692326Z"
+    }
+  },
+  "Temperature": 0.0
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:RaspberryPi;1",
+  "@type": "Interface",
+  "displayName": "Raspberry Pi",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "temperature",
+      "displayName": "Temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "humidity",
+      "displayName": "Humidity",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "ledState",
+      "displayName": "LED State",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "sensorData",
+      "displayName": "Sensor Data",
+      "schema": {
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "temperature",
+            "schema": "double"
+          },
+          {
+            "name": "humidity",
+            "schema": "double"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Command",
+      "name": "startSendingData",
+      "displayName": "Start Sending Data"
+    },
+    {
+      "@type": "Command",
+      "name": "stopSendingData",
+      "displayName": "Stop Sending Data"
+    }
+  ]
+}
