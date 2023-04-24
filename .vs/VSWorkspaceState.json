@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Dt-demo",
-    "\\IoTHubtoTwins"
+    "\\IoTHubtoTwins",
+    "\\React-SPA\\my-app"
   ],
   "SelectedNode": "\\IoTHubtoTwins\\IoTHubtoTwins.cs",
   "PreviewInSolutionExplorer": false
